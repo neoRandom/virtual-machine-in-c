@@ -1,20 +1,19 @@
 #ifndef TYPES_H
 #define TYPES_H
 
-#define i8  char
-#define i16 short
-#define i32 int
-#define i64 long
+typedef unsigned char       u8;
+typedef unsigned short     u16;
+typedef unsigned int       u32;
+typedef unsigned long      u64;
+typedef unsigned long long uMX;
 
-#define u8  unsigned char
-#define u16 unsigned short
-#define u32 unsigned int
-#define u64 unsigned long
+typedef char       i8;
+typedef short     i16;
+typedef int       i32;
+typedef long      i64;
+typedef long long iMX;
 
-#define f32 float
-#define f64 double
-
-#define x32 unsigned float
-#define x64 unsigned double
+typedef float  f32;
+typedef double f64;
 
 #endif
