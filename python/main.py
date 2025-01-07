@@ -1,8 +1,8 @@
 import os
 import sys
 
-MEMORY_SIZE = 4096
-ROM_OFFSET = 0x200
+MEMORY_SIZE = 0x10000  # 2^16 = 65536
+ROM_OFFSET = 0x200     # 2^9  = 512
 STACK_SIZE = 16
 NUM_REGS = 16
 
